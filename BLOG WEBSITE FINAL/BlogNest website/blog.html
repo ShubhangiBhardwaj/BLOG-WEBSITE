@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>BlogNest</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                <h1 class="text-uppercase main_heading">BlogNest</h1>
+                <p class="main_heading__para">Welcome Readers! <span class="text-capitalize bg-dark text-white py-2 px-3"> world of blog</span> </p>
+            </div>
+            <!-- //the main image -->
+            <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+                <p>Heaven for Bloggers</p>
+                <!-- <h2 class="text-uppercase">the Progammer guy</h2> -->
+                <h2 class="animateWord">
+                    <span>I am </span>
+                    <div>
+                        <!--        Use classes 2,3, or 4 to match the number of words -->
+                        <ul class="flip4">
+                            <li> a Writer </li>
+                            <li> a Developer</li>
+                            <li> a Dancer</li>
+                
+                        </ul>
+                    </div>
+                </h2>
+                <button class="text-uppercase">subscribe</button>
+            </div>
+        </header>
+        <!-- header ends -->
+        <!-- two sided blog part starts -->
+        <div class="container-fluid ">
+            <div class="row ">
+                <!-- to get the space form left and right -->
+                <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- left side of the blog  -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5 ">
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Life</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold">Poem about the challenges of life, </span> June 25, 2020 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="C:\Users\Shubhangi Bhardwaj\OneDrive\Desktop\BlogNest website\images\img 2.avif" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">BlogNest</span> Welcomes all of you to my world of blog.</p>
+                                    <p>
+                                    Trillions walk on the sand, of this mighty land. 
+                                    Footprints are left by some, 
+                                    The waves wash them as soon as they come.
+                                    Meeting people on your way is rare,
+                                    Making them stay forebver is a dare.
+                                    Life is a hide and seek, we all have to play,
+                                    Certainly, only a handful will stay.
+                                    A picture captures the moment,
+                                    And we cherish it throughout our lifetime as an ornament.
+                                    It seems like a nightmare to be apart,
+                                    From those who shared with me a cherishing part.
+                                    Words aren't suffice to what i want to say,
+                                    As I have thousands of words to convey.
+                                    But, I don't know why I get speechless with my blurry eyes,
+                                    Acknowledging that this worldis full of disguise.
+                                    No matter what i will always smile,
+                                    As life is an island and we have to walk down the aisle,
+                                    Till the time passes in the clock,
+                                    And the death says KNOCK-KNOCK.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">2</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Surbhi, </span> June 25, 2020, 10:20 PM </p>
+                                                <p>Beautiful poem.</p>
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Harshita, </span> June 25, 2020, 11:20 PM </p>
+                                                <p>Great work girl.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2nd topic  -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Quote</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold">Cheerful daylights and still nights, </span> July 1, 2022 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="C:\Users\Shubhangi Bhardwaj\OneDrive\Desktop\BlogNest website\images\img 2.avif" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Shubhangi Bhardwaj</span> Welcomes, all of you to my world of blog. Some text about this blog entry.</p>
+                                    <p>
+                                        "I wonder, how much the cheerful daylights have envied the serenity of still nights".</p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Megha, </span> July 1, 2022, 7:20 PM </p>
+                                                <p>Serenity of the night>>>>>> . Subscribed</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Sanya, </span> July 1, 2022, 9:20 PM </p>
+                                                <p>Amazing!!!!!!.</p>
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Sneha, </span> July 1, 2022, 9:30 PM </p>
+                                                <p>Beautiful quote!!!!!!.</p>
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Unnati, </span> July 1, 2022, 11:20 PM </p>
+                                                <p>Loved this Blog.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3rd topic -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Quote</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold">The story of SHE, </span> Aug 6, 2023 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="C:\Users\Shubhangi Bhardwaj\OneDrive\Desktop\BlogNest website\images\img 2.avif" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Shubhangi Bhardwaj</span> Welcomes, all of you to my world of blog.</p>
+                                    <p>
+                                        You want to know why she wears a beautiful yet a fake smile on her lips while her eyes renders shelter to her tears. Coz, the colours of love that once made her life colouful and bright. now takes her to a dark maze.</p> 
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Aarushi, </span> Aug 6, 2023, 7:20 PM </p>
+                                                <p>I just love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Sanya, </span> Aug 6, 2023, 9:20 PM </p>
+                                                <p>Good one</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Shelly, </span> Aug 6, 2020, 9:20 PM </p>
+                                                <p>Awesome.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Shraddha, </span> Aug 6, 2023, 10:55 PM </p>
+                                                <p>Beautiful it is.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  *******************************************************
+            **********************************************************.
+            right side of the div
+            *******************************************************
+            **********************************************************
+            -->
+                        <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                            <div class="row gy-5 left_div__blog">
+                                <!-- about me -->
+                                <div class="col-12  about_me_div shadow">
+                                    <p>Shubhangi</p>
+                                    <p>I have a very beautiful and unsaid relationship with my thoughts and paper. Ornamenting words and thoughts together is what i love,this takes me to another world. I want to share my world with you through these blogs. Hope you enjoy reading them.</p>
+                                </div>
+                                 <!-- advertise -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Advertise</h2>
+                                    </div>
+                                    <div class="right_sub__div ">
+                                        <div class="adevetise_img bg-light shadow">
+                                            <p>Ads goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                             
+                                               
+                                <!-- Follow Me -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Follow Me</h2>
+                                    </div>
+                                    <div class="right_sub__div d-flex justify-content-around">
+                                        <a href="https://instagram.com/wordsmithery_30?igshid=MzRlODBiNWFlZA==" target="_Shubhangi"> <i class="fab fa-3x fa-instagram"></i></a>
+                                        <a href="https://github.com/ShubhangiBhardwaj/ShubhangiBhardwaj" target="_Shubhangi"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                        <a href="https://www.linkedin.com/in/shubhangi-bhardwaj-25653620a/" target="_Shubhangi"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Subscribe -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Drop your e-mail below and get notified on the latest blogs.</label>
+                                                <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="subs_btn d-block" type="submit">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-center py-5 bg-light">By ©ShubhangiBhardwaj</p>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- Popper.js first, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+        var clickCount = 0;
+        like.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        // show and hide the replies
+        const reply = (rep) => {
+            console.log('hi');
+            // debugger;
+            var res = document.getElementById(rep);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "Shubhangi_show";
+                res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(Shubhangi_show);
+            } else if (res.className == 'Shubhangi_show') {
+                // res.className = " ";
+                console.log('Shubhangi show');
+                res.className = "replies";
+            }
+        }
+        </script>
+    </body>
+
+</html>
